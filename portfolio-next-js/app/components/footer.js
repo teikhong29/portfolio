@@ -11,7 +11,7 @@ const footer = () => {
                     <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
-                <div class="copyright">&copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved</div>
+                <div class="copyright">&copy; Copyright <strong><span>{(new Date().getFullYear())}</span></strong>. All Rights Reserved</div>
             </div>
         </footer>
      );

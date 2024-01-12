@@ -2,14 +2,27 @@ import { Inter } from 'next/font/google'
 import './assets/css/globals.css'
 
 
+
+import 'aos/dist/aos.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.min.css'
+import 'boxicons/css/boxicons.min.css'
+import 'glightbox/dist/css/glightbox.min.css'
+import 'swiper'
+import './assets/css/style.css'
+
 import Favicon from './assets/imgs/favicon.ico'
 import Header from './components/header'
 import Hero from './components/hero'
 import Footer from './components/footer'
-import './assets/css/style.css'
+import ImportJS from './components/importJS'
 
 
 const inter = Inter({ subsets: ['latin'] })
+
+
+
+
 
 export const metadata = {
   title: 'Jackie Tan',
@@ -39,6 +52,9 @@ export default function RootLayout({ children }) {
 
         {/* <div id="preloader"></div> */}
         <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        {/* Vendor JS Files */}
+        <ImportJS />
       </body>
     </html>
   )
