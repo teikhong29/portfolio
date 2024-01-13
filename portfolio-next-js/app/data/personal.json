@@ -1,0 +1,16 @@
+{
+    "name": "Tan Teik Hong (Jackie)",
+    "title": "Software Developer",
+    "socials": [
+        {
+            "name": "LinkedIn",
+            "url": "",
+            "icon": "bx bxl-linkedin"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/teikhong29",
+            "icon": "bx bxl-github"
+        }
+    ]
+}

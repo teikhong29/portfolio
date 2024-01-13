@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import styles from './assets/css/page.module.css'
+// import styles from './assets/css/page.module.css'
 
-import About from './components/about'
+import Experience from './components/experience'
 
 export default function Home() {
   return (
     <main id="main">
-      {/* ======= About Section ======= */}
-      <About />
+      {/* ======= Experience Section ======= */}
+      <Experience />
     </main>
     // <main className={styles.main}>
     //   <div className={styles.description}>
