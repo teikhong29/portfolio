@@ -6,13 +6,13 @@ import AOS from 'aos';
 import GLightbox from 'glightbox'
 import Isotope from 'isotope-layout/dist/isotope.pkgd.js'
 import Swiper from 'swiper'
-import Typed from 'typed.js';
+
 import Waypoint from 'waypoints/lib/noframework.waypoints.js'
-import '../assets/js/main.js'
 
 export default function ImportBsJS() {
   useEffect(() => {
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
+    import('../assets/js/main.js');
 
     const select = (el, all = false) => {
       el = el.trim()
@@ -21,22 +21,6 @@ export default function ImportBsJS() {
       } else {
         return document.querySelector(el)
       }
-    }
-
-     /**
-     * Hero type effect
-     */
-    const typed = select('.typed');
-    if (typed) {
-      let typed_strings = typed.getAttribute('data-typed-items')
-      typed_strings = typed_strings.split(',')
-      new Typed('.typed', {
-        strings: typed_strings,
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000
-      });
     }
 
      /**

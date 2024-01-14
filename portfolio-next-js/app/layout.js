@@ -1,8 +1,3 @@
-import { Inter } from 'next/font/google'
-// import './assets/css/globals.css'
-
-
-
 import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
