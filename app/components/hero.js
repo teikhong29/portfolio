@@ -45,7 +45,7 @@ const HeroSection = () => {
         <section id="hero" className="d-flex flex-column justify-content-center">
             <div className="container" data-aos="zoom-in" data-aos-delay="100">
                 <h1>{personal.name}</h1>
-                <p>I'm <span className="typed" ref={el} data-typed-items={personal.title}></span></p>
+                <p>I&apos;m <span className="typed" ref={el} data-typed-items={personal.title}></span></p>
                 <div className="social-links">
                     {
                         personal.socials && personal.socials.map((social, index) => {
