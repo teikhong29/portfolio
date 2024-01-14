@@ -2,7 +2,7 @@
 import { useState } from "react";
 import data from '../data/personal.json';
 
-const footer = () => {
+const Footer = () => {
     const [personal] = useState(data);
 
     return ( 
@@ -24,4 +24,4 @@ const footer = () => {
      );
 }
  
-export default footer;
+export default Footer;

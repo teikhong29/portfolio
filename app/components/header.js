@@ -1,4 +1,4 @@
-const header = () => {
+const Header = () => {
     return ( 
         <header id="header" className="d-flex flex-column justify-content-center">
             <nav id="navbar" className="navbar nav-menu">
@@ -13,4 +13,4 @@ const header = () => {
      );
 }
  
-export default header;
+export default Header;

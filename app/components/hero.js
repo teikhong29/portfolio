@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Typed from 'typed.js';
 import data from '../data/personal.json';
 
-const heroSection = () => {
+const HeroSection = () => {
     const [personal] = useState(data);
 
     // Create reference to store the DOM element containing the animation
@@ -60,4 +60,4 @@ const heroSection = () => {
      );
 }
  
-export default heroSection;
+export default HeroSection;

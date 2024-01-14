@@ -2,7 +2,7 @@
 import { useState } from "react";
 import data from '../data/experiences.json';
 
-const experience = () => {
+const Experience = () => {
     const [experiences] = useState(data);
 
     return ( 
@@ -45,4 +45,4 @@ const experience = () => {
      );
 }
  
-export default experience;
+export default Experience;
