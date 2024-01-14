@@ -136,7 +136,7 @@ export default function ImportBsJS() {
   /**
    * Initiate Pure Counter 
    */
-  new PureCounter();
+  const pure = new PureCounter();
 
   }, []);
 
