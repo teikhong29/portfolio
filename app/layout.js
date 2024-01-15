@@ -11,7 +11,7 @@ import Hero from './components/hero'
 import Footer from './components/footer'
 import ImportJS from './components/importJS'
 
-import 'jquery/dist/jquery.min.js'
+// import 'jquery/dist/jquery.min.js'
 
 export const metadata = {
   title: 'Jackie Tan',
