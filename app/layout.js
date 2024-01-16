@@ -2,7 +2,7 @@ import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import 'boxicons/css/boxicons.min.css'
-import 'glightbox/dist/css/glightbox.min.css'
+// import 'glightbox/dist/css/glightbox.min.css'
 import './assets/css/style.css'
 
 import Favicon from './assets/imgs/favicon.ico'
@@ -10,8 +10,6 @@ import Header from './components/header'
 import Hero from './components/hero'
 import Footer from './components/footer'
 import ImportJS from './components/importJS'
-
-// import 'jquery/dist/jquery.min.js'
 
 export const metadata = {
   title: 'Jackie Tan',

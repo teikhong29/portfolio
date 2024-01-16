@@ -1,15 +1,14 @@
 'use client'
 import { useEffect } from "react";
 
-import PureCounter from "@srexi/purecounterjs";
+// import PureCounter from "@srexi/purecounterjs";
 import AOS from 'aos';
-import GLightbox from 'glightbox'
-import Isotope from 'isotope-layout/dist/isotope.pkgd.js'
-import Swiper from 'swiper'
+// import GLightbox from 'glightbox'
+// import Isotope from 'isotope-layout/dist/isotope.pkgd.js'
+// import Swiper from 'swiper'
+// import Waypoint from 'waypoints/lib/noframework.waypoints.js'
 
-import Waypoint from 'waypoints/lib/noframework.waypoints.js'
-
-export default function ImportBsJS() {
+export default function ImportJS() {
   useEffect(() => {
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
     import('../assets/js/main.js');
@@ -23,120 +22,112 @@ export default function ImportBsJS() {
       }
     }
 
-     /**
-   * Initiate portfolio lightbox 
-   */
-   const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
+    // const portfolioLightbox = GLightbox({
+    //   selector: '.portfolio-lightbox'
+    // });
 
-  /**
-   * Initiate portfolio details lightbox 
-   */
-  const portfolioDetailsLightbox = GLightbox({
-    selector: '.portfolio-details-lightbox',
-    width: '90%',
-    height: '90vh'
-  });
+    // const portfolioDetailsLightbox = GLightbox({
+    //   selector: '.portfolio-details-lightbox',
+    //   width: '90%',
+    //   height: '90vh'
+    // });
 
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+    // new Swiper('.portfolio-details-slider', {
+    //   speed: 400,
+    //   loop: true,
+    //   autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     type: 'bullets',
+    //     clickable: true
+    //   }
+    // });
 
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+    // new Swiper('.testimonials-slider', {
+    //   speed: 600,
+    //   loop: true,
+    //   autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false
+    //   },
+    //   slidesPerView: 'auto',
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     type: 'bullets',
+    //     clickable: true
+    //   }
+    // });
 
-  /**
-     * Animation on scroll
-     */
-  window.addEventListener('load', () => {
+    // window.addEventListener('load', () => {
+    //   AOS.init({
+    //     duration: 1000,
+    //     easing: 'ease-in-out',
+    //     once: true,
+    //     mirror: false
+    //   })
+    // });
+
     AOS.init({
       duration: 1000,
       easing: 'ease-in-out',
       once: true,
       mirror: false
-    })
-  });
+    });
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
-      });
+    /**
+     * Preloader
+     */
+    // let preloader = select('#preloader');
+    // if (preloader) {
+    //   window.addEventListener('load', () => {
+    //     preloader.remove()
+    //   });
+    // }
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+    // window.addEventListener('load', () => {
+    //   let portfolioContainer = select('.portfolio-container');
+    //   if (portfolioContainer) {
+    //     let portfolioIsotope = new Isotope(portfolioContainer, {
+    //       itemSelector: '.portfolio-item'
+    //     });
 
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
+    //     let portfolioFilters = select('#portfolio-flters li', true);
 
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
-    }
+    //     on('click', '#portfolio-flters li', function(e) {
+    //       e.preventDefault();
+    //       portfolioFilters.forEach(function(el) {
+    //         el.classList.remove('filter-active');
+    //       });
+    //       this.classList.add('filter-active');
 
-  });
+    //       portfolioIsotope.arrange({
+    //         filter: this.getAttribute('data-filter')
+    //       });
+    //       portfolioIsotope.on('arrangeComplete', function() {
+    //         AOS.refresh()
+    //       });
+    //     }, true);
+    //   }
+    // });
 
-  /**
-   * Skills animation
-   */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
+    // let skilsContent = select('.skills-content');
+    // if (skilsContent) {
+    //   new Waypoint({
+    //     element: skilsContent,
+    //     offset: '80%',
+    //     handler: function(direction) {
+    //       let progress = select('.progress .progress-bar', true);
+    //       progress.forEach((el) => {
+    //         el.style.width = el.getAttribute('aria-valuenow') + '%'
+    //       });
+    //     }
+    //   })
+    // }
    
-  /**
-   * Initiate Pure Counter 
-   */
-  const pure = new PureCounter();
+    // const pure = new PureCounter();
 
   }, []);
 
