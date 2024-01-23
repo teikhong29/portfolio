@@ -2,7 +2,7 @@ import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import 'boxicons/css/boxicons.min.css'
-// import 'glightbox/dist/css/glightbox.min.css'
+import 'devicon/devicon.min.css'
 import './assets/css/style.css'
 
 import Favicon from './assets/imgs/favicon.ico'

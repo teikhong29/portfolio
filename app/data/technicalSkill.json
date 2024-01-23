@@ -1,0 +1,34 @@
+[
+    {
+        "skill": "C# / ASP .Net / .Net Core",
+        "percentage": "80"
+    },
+    {
+        "skill": "HTML 5 / CSS / JQuery / JavaScript / Bootstrap",
+        "percentage": "80"
+    },
+    {
+        "skill": "Entity Framework Core / LINQ / Dapper / MS SQL",
+        "percentage": "70"
+    },
+    {
+        "skill": "Oracle SQL / MySQL / MongoDB / Redis",
+        "percentage": "60"
+    },
+    {
+        "skill": "AWS / Azure",
+        "percentage": "60"
+    },
+    {
+        "skill": "Git / DevOps / CICD pipeline",
+        "percentage": "60"
+    },
+    {
+        "skill": "Android Studio(Java) / Xcode(Objective C / Swift)",
+        "percentage": "50"
+    },
+    {
+        "skill": "Docker / Unity ",
+        "percentage": "40"
+    }
+]

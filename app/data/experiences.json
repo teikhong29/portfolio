@@ -6,7 +6,17 @@
         "Job Category": "Web Application Development & Cloud Infrastructure",
         "description": [
             "Develop and maintain .Net web applications using full SDLC and Agile Scrum methodologies.",
-            "Develop and maintain web applications interface with 3rdparty integrations, ensuring high traffic functionality."
+            "Develop and maintain web applications interface with 3rdparty integrations, ensuring high traffic functionality.",
+            "Provide consultation to business application, web architecture and cloud solution.",
+            "Contribute to software enhancement, deployment, maintenance, and support.",
+            "Developed web application or web API by using .Net 7.0/.Net 8.0, Bootstrap v5, and JavaScript.",
+            "Upgrade Azure DevOps server from version 2020 to 2022.",
+            "Setup Self-hosted Windows agents and Azure CI/CD pipeline for .Net projects running in Azure Cloud or on-premise server.",
+            "Conduct source code reviews, maintained Git CI/CD pipelines, and repositories.",
+            "Established standard Git flow processes and CI/CD pipeline templates using Azure DevOps.",
+            "Deployed and hosted applications on AWS/Azure, ensuring scalable and efficient cloud infrastructure for optimal performance and reliability.",
+            "Involved in resource screening, evaluation, interviews, and hiring decisions.",
+            "Mentor and assist junior developers."
         ]
     },
     {
@@ -16,7 +26,28 @@
         "Job Category": "Web Application Development & Cloud Infrastructure",
         "description": [
             "Develop and maintain various .Net web application using full SDLC or Agile scrum and hosted in AWS or Azure.",
-            "Develop and maintain web applications interface with 3rdparty integration."
+            "Develop and maintain web applications interface with 3rdparty integration.",
+            "Integrated Azure AD and Singpass into .Net projects.",
+            "Deploy and maintain the serverless container in AWS EKS include Database (MS SQL).",
+            "Create API gateway using AWS API gateway and node JS in AWS Lambda.",
+            "Develop and maintain the microservices in .Net core projects with AWS serverless.",
+            "Fine tuning the .net core projects to improve the performance in AWS EKS.",
+            "Setup CICD into development environment and assist DevOps team setup CICD in GCC projects (Bamboo, Bitbucket, and etc.).",
+            "Setup and created CICD pipeline template in Azure DevOps and integrate with SAST tools such as SonarQube, Fortify scan, checkmarx, and etc.",
+            "Setup sitefinity CMS projects in AWS and Azure TFS.",
+            "Develop and maintain sitefinity CMS projects using .net mvc framework and .net core mvc.",
+            "Responsible to perform source code review, maintain git CI/CD pipeline and repositories.",
+            "Managing a small development teams on different development projects and maintenance projects.",
+            "Responsible to interview developer, quiz assessment for the candidate and hiring decision."
+        ]
+    },
+    {
+        "year": "11 May 2020 – 13 Nov 2021",
+        "title": "Senior Software Engineering",
+        "company": "Wizvision Pte Ltd (Singapore)",
+        "Job Category": "Web Application Development",
+        "description": [
+            "Develop and maintain various .Net web application using full SDLC or Agile scrum and hosted in AWS or Azure."
         ]
     }
 ]

@@ -13,7 +13,7 @@ const Footer = () => {
                     {
                         personal.socials && personal.socials.map((social, index) => {
                             return (
-                                <a href={social.url} className={social.name} key={'social_' + index}><i className={social.icon}></i></a>
+                                <a href={social.url} className={social.name} key={'social_' + index} target="_blank"><i className={social.icon}></i></a>
                             )
                         })
                     }

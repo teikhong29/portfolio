@@ -12,7 +12,7 @@ const Experience = () => {
                     <h2>Experience</h2>
                 </div>
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-12">
                         <h3 className="resume-title">Professional Experience</h3>
                         {
                             experiences && experiences.map((exp, index) => {

@@ -17,10 +17,10 @@ const HeroSection = () => {
               return document.querySelector(el)
             }
           };
+
          /**
          * Hero type effect
          */
-         
          const typed = select('.typed');
          if (typed) {
            let typed_strings = typed.getAttribute('data-typed-items')
@@ -50,7 +50,7 @@ const HeroSection = () => {
                     {
                         personal.socials && personal.socials.map((social, index) => {
                             return (
-                                <a href={social.url} className={social.name} key={'social_' + index}><i className={social.icon}></i></a>
+                                <a href={social.url} className={social.name} key={'social_' + index} target="_blank"><i className={social.icon}></i></a>
                             )
                         })
                     }
