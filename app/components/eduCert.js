@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import eduData from '../data/education.json';
-import certData from '../data/Certification.json';
+import certData from '../data/certification.json';
 
 const EducationAndCertification = () => {
     const [education] = useState(eduData);
