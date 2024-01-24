@@ -42,12 +42,59 @@
         ]
     },
     {
-        "year": "11 May 2020 – 13 Nov 2021",
+        "year": "11 May 2020 - 13 Nov 2021",
         "title": "Senior Software Engineering",
         "company": "Wizvision Pte Ltd (Singapore)",
         "Job Category": "Web Application Development",
         "description": [
-            "Develop and maintain various .Net web application using full SDLC or Agile scrum and hosted in AWS or Azure."
+            "Develop and maintain Singapore government project. E.g. Monetary Authority of Singapore Corporate e-Lodgment (MAS-CeL), National University Hospital Clinical Fees System (NUH-CFS), Agency for Integrated Care Caregivers Training Grant (AIC-eCTG) and etc.",
+            "Develop web services to enhance the system workflow and enhanced back end processes.",
+            "Communicate with client or Singapore Information Technology Division (ITD) to gather software requirements of the projects.",
+            "Implement application cache into system to enhance the performance of the system.",
+            "Updated system functional specification and prepared software test case for users.",
+            "Develop .Net core common library and implemented into each system. ",
+            "Fine tuning the system and improve the performance of the system.",
+            "Researched and developed web application or web services by using .Net 5.0",
+            "Managing 5 team members on development project and maintenance project.",
+            "Empowering team members with skills to improve their confidence, product knowledge, and communication skills.",
+            "Monitor team performance and suggest or provide solution to team members.",
+            "Keep up to date on the newest technological innovations in the field and be ready to apply relevant innovations to our software systems."
+        ]
+    },
+    {
+        "year": "26 Jan 2015 – 01 March 2020",
+        "title": "Software Engineer -> Senior .NET developer",
+        "company": "Octafa Consulting Sdn. Bhd. (Malaysia)",
+        "Job Category": "Web & Mobile Application Development",
+        "description": [
+            "Built and maintained multiple web applications and using C#, ASP .Net MVC, and SQL created new software systems.",
+            "Enhanced web structure by Model-View-Controller (MVC).",
+            "Designed and customized front-end and back-end web application.",
+            "Responsible for develop web services (back end service).",
+            "Developed web services to grab information as data sources and another web services to process data as data receiver.",
+            "Implemented web sync technology for real time data in .net project.",
+            "Developed cross platform apps (Android & iOS) by NativeScripts (JavaScript) and node.js.",
+            "Developed mobile web by jQuery mobile, bootstrap, .net and etc.",
+            "Design, build, and maintain efficient, reusable and reliable code of the application.",
+            "Worked on the improvement of all programming procedures in order to make the whole software development process more effective.",
+            "Enhancement on web service and back end application by added cache (Redis) and thread.",
+            "Ensured the best possible performance, quality and responsiveness of applications.",
+            "Developed and enhanced Web API for mobile application.",
+            "Developed Android SDK by Android studio (JAVA) and iOS framework by XCode (Objective C).",
+            "Implement Android SDK to improve the performance of the android applications.",
+            "Optimized the interface of android apps with variety of the systems to ensure flexible and agile use.",
+            "Maintained and enhanced Android apps that communicate with RESTful services (Retrofit)."
+        ]
+    },
+    {
+        "year": "01 Oct 2013 – 31 Dec 2013",
+        "title": "Intern",
+        "company": "Infinity Game Studio Sdn. Bhd. (Malaysia)",
+        "Job Category": "Game Development",
+        "description": [
+            "Completed the party window UI of the game.",
+            "Completed a basic MMO game.",
+            "Completed the Editor Tool for the game, Heroes of Wars."
         ]
     }
 ]

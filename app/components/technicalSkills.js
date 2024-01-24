@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import data from '../data/technicalSkill.json'
+import data from '../data/technicalSkill.json';
 
 const TechnicalSkills = () => {
     const [skills] = useState(data);

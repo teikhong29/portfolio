@@ -1203,3 +1203,11 @@ body {
   #footer .credits {
     font-size: 13px;
   }
+
+  .eduCert span.d-none.d-md-block {
+    font-size: .8rem;
+  }
+
+  .eduCert h6 {
+    font-weight: bold;
+  }
