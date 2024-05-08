@@ -1,6 +1,18 @@
 [
     {
-        "year": "Apr 2023 - Present",
+        "year": "Mar 2024 - Present",
+        "title": "Technical Lead",
+        "company": "Rovotic Networks Sdn Bhd (Malaysia)",
+        "Job Category": "Web Application Development & Cloud Infrastructure",
+        "description": [
+            "Develop and maintain php Laravel web API with MySQL database, Redis, RabbitMQ, and Elastic Search.",
+            "Upgraded the web API php version from version 7.1 to version 8.2 and compatible to the latest php Laravel version.",
+            "Created docker compose file to build the web API into docker image and deploy the docker image into Linux environment.",
+            "Created a bash script and shell script for easily build the docker image, initial the Linux environment and deploy into Linux environment."
+        ]
+    },
+    {
+        "year": "Apr 2023 - Feb 2024",
         "title": "Technical Lead",
         "company": "AGTIV Consulting Sdb Bhd (Malaysia)",
         "Job Category": "Web Application Development & Cloud Infrastructure",
