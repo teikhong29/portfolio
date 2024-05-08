@@ -20,15 +20,19 @@
         "percentage": "60"
     },
     {
-        "skill": "Git / DevOps / CICD pipeline",
+        "skill": "Git / DevOps / CICD pipeline / Docker",
         "percentage": "60"
+    },
+    {
+        "skill": "PHP Laravel / ElasticSearch / RabbitMQ",
+        "percentage": "50"
     },
     {
         "skill": "Android Studio(Java) / Xcode(Objective C / Swift)",
         "percentage": "50"
     },
     {
-        "skill": "Docker / Unity ",
+        "skill": "Unity",
         "percentage": "40"
     }
 ]
