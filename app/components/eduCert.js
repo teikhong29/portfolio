@@ -53,7 +53,14 @@ const EducationAndCertification = () => {
                                                 )
                                             }
                                             {
-                                                !cert.credlyUrl && (
+                                                !cert.credlyUrl && cert.certUrl && (
+                                                    <Link href={cert.certUrl} rel="noopener noreferrer" target="_blank">
+                                                        <h6>{cert.certificate}</h6>
+                                                    </Link>
+                                                )
+                                            }
+                                            {
+                                                !cert.credlyUrl && !cert.certUrl && (
                                                     <h6>{cert.certificate}</h6>
                                                 )
                                             }
