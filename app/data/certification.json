@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Microsoft Certified: Azure AI Fundamentals",
+        "year": "Issued May 2024",
+        "org": "Microsoft",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "https://learn.microsoft.com/en-gb/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg",
+        "certUrl": "https://learn.microsoft.com/api/credentials/share/en-us/JackieTan-2421/C5390F0424937771?sharingId=5882DFD383D0759C"
+    },
+    {
         "certificate": "Certified Sitefinity Developer (14)",
         "year": "Issued Jun 2022",
         "org": "Foundations of Sitefinity Development: Sitefinity DX 14",
