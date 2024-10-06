@@ -1,6 +1,21 @@
 [
     {
-        "year": "Mar 2024 - Present",
+        "year": "May 2024 - Present",
+        "title": "Team Leader",
+        "company": "Elfoco Global Sdn Bhd (Malaysia)",
+        "Job Category": "Web Application Development & Cloud Infrastructure",
+        "description": [
+            "Develop and maintain member site system and back office system with .Net framework, .Net core, Redis, MS SQL, and Docker container in Windows or Linux server.",
+            "Integrated 3rd party payment gateway and game integrations to the system.",
+            "Develop a background job in .Net 8 using Quartz and memory cache to process large data into database.",
+            "Revamp .Net framework application to .Net 8 and deploy to Linux server to improve the performance and reduce the cost.",
+            "Conduct source code reviews to maintain the quality of codes.",
+            "Involved in resource screening, evaluation, interviews, and hiring decisions.",
+            "Mentor and assist junior developers."
+        ]
+    },
+    {
+        "year": "Mar 2024 - May 2024",
         "title": "Technical Lead",
         "company": "Rovotic Networks Sdn Bhd (Malaysia)",
         "Job Category": "Web Application Development & Cloud Infrastructure",

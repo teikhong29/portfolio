@@ -8,11 +8,15 @@
         "percentage": "80"
     },
     {
-        "skill": "Entity Framework Core / LINQ / Dapper / MS SQL",
+        "skill": "EF Core / LINQ / Dapper / MS SQL / Redis",
         "percentage": "70"
     },
     {
-        "skill": "Oracle SQL / MySQL / MongoDB / Redis",
+        "skill": "Docker / Docker Compose",
+        "percentage": "70"
+    },
+    {
+        "skill": "Oracle SQL / MySQL / MongoDB",
         "percentage": "60"
     },
     {
@@ -20,7 +24,7 @@
         "percentage": "60"
     },
     {
-        "skill": "Git / DevOps / CICD pipeline / Docker",
+        "skill": "Git / DevOps / CICD pipeline / GitLab / Jenkins",
         "percentage": "60"
     },
     {
