@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+        "year": "Issued Mar 2025",
+        "org": "Oracle",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "/imgs/OCI25AI.png",
+        "certUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=6673BE742E5F380FC02FA36900E9A9EABB3FEC1A45BF5F781C16CF40E55606EB"
+    },
+    {
         "certificate": "Microsoft Certified: Azure AI Fundamentals",
         "year": "Issued May 2024",
         "org": "Microsoft",
