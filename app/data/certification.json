@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+        "year": "Issued Mar 2025",
+        "org": "Oracle",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "/imgs/OCI25.png",
+        "certUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=80CAC9E3ABE82F4F0C289F3A0B89D8192A3D404664471419734FFFCEEF956A03"
+    },
+    {
         "certificate": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
         "year": "Issued Mar 2025",
         "org": "Oracle",
