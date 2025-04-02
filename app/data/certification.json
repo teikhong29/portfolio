@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Oracle Data Platform 2025 Certified Foundations Associate",
+        "year": "Issued Mar 2025",
+        "org": "Oracle",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "/imgs/OCI25DP.png",
+        "certUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=5E72FEF39D8CEE4533FF8FD278CCC41481E3407785C882A8C4AC087EB5128901"
+    },
+    {
         "certificate": "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
         "year": "Issued Mar 2025",
         "org": "Oracle",
