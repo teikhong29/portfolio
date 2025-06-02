@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Oracle Certified Professional, MySQL 8.0 Database Administrator",
+        "year": "Issued Jun 2025",
+        "org": "Oracle",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "/imgs/MYSQLDBA80OCP.png",
+        "certUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=21FE56A154E01912C3895CA3AA2388D150BD7C60CB9B7EFAFAB185C1D41E5756"
+    },
+    {
         "certificate": "Oracle Data Platform 2025 Certified Foundations Associate",
         "year": "Issued Mar 2025",
         "org": "Oracle",
