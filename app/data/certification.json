@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Ethical Hacker",
+        "year": "Issued Jun 2025",
+        "org": "Cisco",
+        "credlyId": "",
+        "credlyUrl": "https://www.credly.com/badges/ab6ce0f5-cc24-453b-8dff-1ac3f6d91475",
+        "badge": "/imgs/ethical-hacker.png",
+        "certUrl": ""
+    },
+    {
         "certificate": "Oracle Certified Professional, MySQL 8.0 Database Administrator",
         "year": "Issued Jun 2025",
         "org": "Oracle",
