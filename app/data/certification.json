@@ -1,5 +1,14 @@
 [
     {
+        "certificate": "Microsoft Certified: Azure Developer Associate",
+        "year": "Issued Jun 2025",
+        "org": "Microsoft",
+        "credlyId": "",
+        "credlyUrl": "",
+        "badge": "https://learn.microsoft.com/en-gb/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+        "certUrl": "https://learn.microsoft.com/api/credentials/share/en-us/JackieTan-2421/169B1D534B3297D7?sharingId=5882DFD383D0759C"
+    },
+    {
         "certificate": "Ethical Hacker",
         "year": "Issued Jun 2025",
         "org": "Cisco",
